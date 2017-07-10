@@ -1,1 +1,5 @@
-'hi'
+<ul>
+<% @posts.each do |post| %>
+<li><%= post.id %>: <%= post.title %>, <%= post.body %></li>
+<% end %>
+</ul>

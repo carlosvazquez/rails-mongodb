@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
 	def index
-		'hello world'
+		@posts = Post.all
 	end
 end
